@@ -1,0 +1,1 @@
+/Users/mohammed.hussein/Workspace/magento2/lib/web/mage/translate-inline.js

@@ -1,0 +1,1 @@
+/Users/mohammed.hussein/Workspace/magento2/vendor/magento/module-swatches/view/adminhtml/web/js/text.js

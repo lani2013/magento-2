@@ -5,7 +5,7 @@
                 type="Shariss\Recipes\Model\RecipeRepository" />
     <preference for="Shariss\Recipes\Api\Data\RecipeInterface"
                 type="Shariss\Recipes\Model\Recipe" />
-    <preference for="Shariss\Recipes\Api\Data\RecipeSearchResultsInterface"
-                type="Magento\Framework\Api\SearchResults"/>
+    <preference for="Shariss\Recipes\Model\RecipeSearchResultsInterface"
+                type="Magento\Framework\Api\SearchResults" />
 
 </config>

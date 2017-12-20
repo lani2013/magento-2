@@ -91,7 +91,7 @@ class Recipe extends AbstractModel implements RecipeInterface
      * Returns the name of the recip.
      * @return DateTime |null
      */
-    public function getCreated_id()
+    public function getCreated_at()
     {
         return $this->getData('created_id');
     }
@@ -100,7 +100,7 @@ class Recipe extends AbstractModel implements RecipeInterface
      * Sets the name of this recipe.
      * @param DateTime $created_id
      */
-    public function setCreated_id($created_id)
+    public function setCreated_at($created_id)
     {
         return $this->setData('created_id' , $created_id);
     }

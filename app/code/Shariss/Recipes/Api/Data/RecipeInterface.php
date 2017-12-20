@@ -55,16 +55,16 @@ interface RecipeInterface{
       public function setContent($content);
 
       /**
-       * Returns the name of the recip.
+       * Returns the creation date of the recipe.
        * @return DateTime |null
        */
 
-      public function getCreated_id();
+      public function getCreated_at();
 
       /**
-       * Sets the name of this recipe.
-       * @param DateTime $created_id
+       * Sets the creation date of this recipe.
+       * @param DateTime $created_at
        */
 
-       public function setCreated_id($created_id);
+       public function setCreated_at($created_at);
 }

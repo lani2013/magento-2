@@ -1,0 +1,1 @@
+/Users/mohammed.hussein/Workspace/magento2/vendor/magento/module-customer/view/frontend/web/change-email-password.js

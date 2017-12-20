@@ -1,0 +1,1 @@
+/Users/mohammed.hussein/Workspace/magento2/vendor/magento/module-shipping/view/frontend/web/js/model/config.js
