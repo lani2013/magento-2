@@ -2,97 +2,206 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4376ac7-fd19-4fae-990b-cfd6bfac0d93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Shariss/Recipes/Model/RecipeFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Shariss/Recipes/Model/RecipeRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Shariss/Recipes/Model/RecipeSearchResultsInterfaceFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Shariss/Recipes/Model/ResourceModel/Recipe/CollectionFactory.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---075_CORE_CACHE_INVALIDATE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---075_DB_PDO_MYSQL_DDL_AUTHORIZATION_ROLE_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---075_DB_PDO_MYSQL_DDL_OAUTH_CONSUMER_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---075_GLOBAL_PRIMARY_PLUGIN_LIST" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---075_MVIEW_CONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---075_DICONFIGD43D56167CD47F9A74127B88CC7165D1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---075_GLOBAL__DICONFIG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---075_DB_PDO_MYSQL_DDL_INTEGRATION_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---075_INTEGRATION_API" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---075_DB_PDO_MYSQL_DDL_AUTHORIZATION_RULE_1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_INTEGRATION_API_CONFIG" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Shariss/Recipes/Api/Data/RecipeSearchResultInterface.php" afterPath="$PROJECT_DIR$/app/code/Shariss/Recipes/Model/RecipeSearchResultsInterface.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---075_SYSTEM_WEBSITES_BASE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---075_GLOBAL__EVENT_CONFIG_CACHE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---075_INTERCEPTION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---075_SYSTEM_SCOPES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---075_SYSTEM_STORES_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---075_SYSTEM_WEBSITES_0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---075_INDEXER_CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---075_INITIAL_CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---075_SYSTEM_STORES_0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---075_SYSTEM_DEFAULT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---075_RESOLVED_STORES_D1BEFA03C79CA0B84ECC488DEA96BC68" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---075_SYSTEM_WEBSITES_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---075_SYSTEM_WEBSITES_ADMIN" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---075_PROVIDER_ACL_RESOURCES_CACHE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---075_SYSTEM" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---075_SYSTEM_STORES_DEFAULT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---075_CRON_GROUPS_CONFIG_CACHE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---075_EXTENSION_ATTRIBUTES_CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---075_SYSTEM_STORES_ADMIN" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_ACL_CACHE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_CONFIG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_CONFIG_SCOPES" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_DB_DDL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_DB_PDO_MYSQL_DDL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_MAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_STORE_RELATIONS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_10" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_11" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_14" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_19" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_20" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_21" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_22" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_23" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_34" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_35" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_36" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_37" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_38" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_40" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_10" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_11" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_14" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_19" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_20" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_21" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_22" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_23" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_34" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_35" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_36" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_38" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_40" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_10" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1007" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1020" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1033" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_11" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1113" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1167" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1225" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1273" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1289" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1305" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1321" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1337" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1353" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1369" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1385" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_14" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1401" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1449" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1465" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_15" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1513" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1545" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1561" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1609" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_163" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1689" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_17" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1705" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1721" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1737" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1753" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1769" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1785" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_18" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1801" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1817" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1824" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1831" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1852" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1859" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1866" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1887" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_19" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1901" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1908" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1924" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1956" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1972" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1988" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1995" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_20" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_2002" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_2008" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_2015" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_2022" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_2029" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_2045" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_2046" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_21" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_22" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_23" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_307" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_323" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_33" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_339" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_34" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_35" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_355" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_36" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_37" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_371" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_38" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_387" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_39" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_40" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_403" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_41" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_419" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_42" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_43" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_435" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_44" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_45" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_46" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_47" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_48" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_49" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_50" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_51" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_681" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_687" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_693" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_699" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_705" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_711" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_717" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_723" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_729" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_768" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_916" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_929" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_942" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_955" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_968" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_981" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_99" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_994" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_B" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_B_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_P_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_P_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_P_4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_P_6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_FPC" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_MAGE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_REVIEW_BLOCK" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_STORE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_STORE_GROUP" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/Shariss/Recipes/Api/Data/RecipeInterface.php" afterPath="$PROJECT_DIR$/app/code/Shariss/Recipes/Api/Data/RecipeInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/Shariss/Recipes/Model/Recipe.php" afterPath="$PROJECT_DIR$/app/code/Shariss/Recipes/Model/Recipe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/Shariss/Recipes/Test/Unit/Model/RecipeTest.php" afterPath="$PROJECT_DIR$/app/code/Shariss/Recipes/Test/Unit/Model/RecipeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/Shariss/Recipes/etc/di.xml" afterPath="$PROJECT_DIR$/app/code/Shariss/Recipes/etc/di.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Authorization/Model/Role/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Authorization/Model/Role/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Attribute/Repository/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/Product/Attribute/Repository/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Attribute/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Catalog/Model/ResourceModel/Attribute/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Config/App/Config/Source/DumpConfigSourceAggregated/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Config/App/Config/Source/DumpConfigSourceAggregated/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/ResourceModel/Entity/Attribute/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Eav/Model/ResourceModel/Entity/Attribute/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/App/Config/Value/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Framework/App/Config/Value/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Framework/App/PageCache/Cache/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Framework/App/PageCache/Cache/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Indexer/Model/Config/Data/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Indexer/Model/Config/Data/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Indexer/Model/Mview/View/State/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Indexer/Model/Mview/View/State/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Integration/Model/IntegrationService/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Integration/Model/IntegrationService/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Store/Model/ResourceModel/Store/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Store/Model/ResourceModel/Store/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generated/code/Magento/Store/Model/ResourceModel/Website/Interceptor.php" afterPath="$PROJECT_DIR$/generated/code/Magento/Store/Model/ResourceModel/Website/Interceptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--0/mage---075_SYSTEM_WEBSITES_BASE" afterPath="$PROJECT_DIR$/var/cache/mage--0/mage---075_SYSTEM_WEBSITES_BASE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--1/mage---075_GLOBAL__EVENT_CONFIG_CACHE" afterPath="$PROJECT_DIR$/var/cache/mage--1/mage---075_GLOBAL__EVENT_CONFIG_CACHE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---075_INTERCEPTION" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---075_INTERCEPTION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---075_SYSTEM_SCOPES" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---075_SYSTEM_SCOPES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---075_SYSTEM_STORES_1" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---075_SYSTEM_STORES_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--2/mage---075_SYSTEM_WEBSITES_0" afterPath="$PROJECT_DIR$/var/cache/mage--2/mage---075_SYSTEM_WEBSITES_0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--3/mage---075_INDEXER_CONFIG" afterPath="$PROJECT_DIR$/var/cache/mage--3/mage---075_INDEXER_CONFIG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--5/mage---075_INITIAL_CONFIG" afterPath="$PROJECT_DIR$/var/cache/mage--5/mage---075_INITIAL_CONFIG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--7/mage---075_SYSTEM_STORES_0" afterPath="$PROJECT_DIR$/var/cache/mage--7/mage---075_SYSTEM_STORES_0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--8/mage---075_SYSTEM_DEFAULT" afterPath="$PROJECT_DIR$/var/cache/mage--8/mage---075_SYSTEM_DEFAULT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---075_RESOLVED_STORES_D1BEFA03C79CA0B84ECC488DEA96BC68" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---075_RESOLVED_STORES_D1BEFA03C79CA0B84ECC488DEA96BC68" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---075_SYSTEM_WEBSITES_1" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---075_SYSTEM_WEBSITES_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--9/mage---075_SYSTEM_WEBSITES_ADMIN" afterPath="$PROJECT_DIR$/var/cache/mage--9/mage---075_SYSTEM_WEBSITES_ADMIN" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--a/mage---075_PROVIDER_ACL_RESOURCES_CACHE" afterPath="$PROJECT_DIR$/var/cache/mage--a/mage---075_PROVIDER_ACL_RESOURCES_CACHE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---075_SYSTEM" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---075_SYSTEM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--c/mage---075_SYSTEM_STORES_DEFAULT" afterPath="$PROJECT_DIR$/var/cache/mage--c/mage---075_SYSTEM_STORES_DEFAULT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--e/mage---075_CRON_GROUPS_CONFIG_CACHE" afterPath="$PROJECT_DIR$/var/cache/mage--e/mage---075_CRON_GROUPS_CONFIG_CACHE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---075_EXTENSION_ATTRIBUTES_CONFIG" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---075_EXTENSION_ATTRIBUTES_CONFIG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage--f/mage---075_SYSTEM_STORES_ADMIN" afterPath="$PROJECT_DIR$/var/cache/mage--f/mage---075_SYSTEM_STORES_ADMIN" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_ACL_CACHE" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_ACL_CACHE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_CONFIG" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_CONFIG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_DB_DDL" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_DB_DDL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_DB_PDO_MYSQL_DDL" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_DB_PDO_MYSQL_DDL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_MAGE" afterPath="$PROJECT_DIR$/var/cache/mage-tags/mage---075_MAGE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/log/debug.log" afterPath="$PROJECT_DIR$/var/log/debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/log/system.log" afterPath="$PROJECT_DIR$/var/log/system.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_11" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_20" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_21" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_3" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_37" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_37" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_38" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_38" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_9" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_21" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_C_P_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_14" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1561" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1561" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_163" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_163" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1689" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1689" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1705" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1705" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1721" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1721" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1737" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1737" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1753" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1753" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1769" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1769" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1785" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1785" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1801" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1801" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1817" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_1817" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_47" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_47" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_6" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_699" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CAT_P_699" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_B" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_B" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_P_1" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_P_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_P_2" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_CMS_P_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_FPC" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_FPC" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_MAGE" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_MAGE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_REVIEW_BLOCK" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_REVIEW_BLOCK" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_STORE" afterPath="$PROJECT_DIR$/var/page_cache/mage-tags/mage---075_STORE" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,7 +225,7 @@
       <file leaf-file-name="RecipeTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/Shariss/Recipes/Test/Unit/Model/RecipeTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="412">
               <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
@@ -490,6 +599,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -710,7 +820,6 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -817,7 +926,8 @@
       <workItem from="1513509356500" duration="197000" />
       <workItem from="1513587137629" duration="985000" />
       <workItem from="1513676603456" duration="368000" />
-      <workItem from="1513779470610" duration="781000" />
+      <workItem from="1513779470610" duration="1033000" />
+      <workItem from="1513870888242" duration="27000" />
     </task>
     <servers />
   </component>
@@ -854,7 +964,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157626000" />
+    <option name="totallyTimeSpent" value="157905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1255,13 +1365,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Shariss/Recipes/Test/Unit/Model/RecipeTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
+        <state relative-caret-position="412">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
