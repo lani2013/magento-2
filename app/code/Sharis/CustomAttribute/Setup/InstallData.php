@@ -17,7 +17,7 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Eav\Model\Config;
 /**
  * Class InstallData
- * @package     Devchannel\CustomAttribute\Setup
+ * @package     Sharis\CustomAttribute\Setup
  */
 class InstallData implements InstallDataInterface
 {
