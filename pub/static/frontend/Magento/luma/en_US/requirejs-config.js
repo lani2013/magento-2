@@ -178,6 +178,22 @@ require.config(config);
 var config = {
     map: {
         '*': {
+            creditCardType: 'Magento_Payment/cc-type'
+        }
+    }
+};
+
+require.config(config);
+})();
+(function() {
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+var config = {
+    map: {
+        '*': {
             addToCart: 'Magento_Msrp/js/msrp'
         }
     }
@@ -229,7 +245,8 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            creditCardType: 'Magento_Payment/cc-type'
+            giftMessage:    'Magento_Sales/gift-message',
+            ordersReturns:  'Magento_Sales/orders-returns'
         }
     }
 };
@@ -261,8 +278,13 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            giftMessage:    'Magento_Sales/gift-message',
-            ordersReturns:  'Magento_Sales/orders-returns'
+            discountCode:           'Magento_Checkout/js/discount-codes',
+            shoppingCart:           'Magento_Checkout/js/shopping-cart',
+            regionUpdater:          'Magento_Checkout/js/region-updater',
+            sidebar:                'Magento_Checkout/js/sidebar',
+            checkoutLoader:         'Magento_Checkout/js/checkout-loader',
+            checkoutData:           'Magento_Checkout/js/checkout-data',
+            proceedToCheckout:      'Magento_Checkout/js/proceed-to-checkout'
         }
     }
 };
@@ -311,13 +333,7 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            discountCode:           'Magento_Checkout/js/discount-codes',
-            shoppingCart:           'Magento_Checkout/js/shopping-cart',
-            regionUpdater:          'Magento_Checkout/js/region-updater',
-            sidebar:                'Magento_Checkout/js/sidebar',
-            checkoutLoader:         'Magento_Checkout/js/checkout-loader',
-            checkoutData:           'Magento_Checkout/js/checkout-data',
-            proceedToCheckout:      'Magento_Checkout/js/proceed-to-checkout'
+            'taxToggle': 'Magento_Weee/tax-toggle'
         }
     }
 };
@@ -362,22 +378,6 @@ var config = {
             consoleLogger:  'Magento_Ui/js/lib/logger/console-logger',
             uiLayout:       'Magento_Ui/js/core/renderer/layout',
             buttonAdapter:  'Magento_Ui/js/form/button-adapter'
-        }
-    }
-};
-
-require.config(config);
-})();
-(function() {
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-var config = {
-    map: {
-        '*': {
-            'taxToggle': 'Magento_Weee/tax-toggle'
         }
     }
 };

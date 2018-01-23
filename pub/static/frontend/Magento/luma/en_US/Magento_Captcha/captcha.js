@@ -1,1 +1,0 @@
-/Users/mohammed.hussein/Workspace/magento2/vendor/magento/module-captcha/view/frontend/web/captcha.js

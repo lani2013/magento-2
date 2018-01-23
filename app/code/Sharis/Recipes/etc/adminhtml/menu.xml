@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+       <add id="Sharis_Recipes::mainsharis"
+             title="Sharis"
+             module="Sharis_Recipes"
+             sortOrder="33"
+             resource="Magento_Backend::content" />
+
+        <add id="Sharis_Recipes::recipes"
+             title="Recipes"
+             module="Sharis_Recipes"
+             sortOrder="33"
+             action="sharis/recipes/list"
+             resource="Sharis_Recipes::mainsharis"
+             parent="Sharis_Recipes::mainsharis"/>
+    </menu>
+</config>

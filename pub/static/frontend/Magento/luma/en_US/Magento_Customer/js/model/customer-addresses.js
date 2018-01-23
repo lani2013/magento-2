@@ -1,1 +1,0 @@
-/Users/mohammed.hussein/Workspace/magento2/vendor/magento/module-customer/view/frontend/web/js/model/customer-addresses.js

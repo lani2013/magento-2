@@ -1,1 +1,0 @@
-/Users/mohammed.hussein/Workspace/magento2/vendor/magento/module-swatches/view/frontend/web/js/swatch-renderer.js

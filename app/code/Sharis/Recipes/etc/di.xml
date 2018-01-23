@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Sharis\Recipes\Api\RecipeRepositoryInterface"
+                type="Sharis\Recipes\Model\RecipeRepository" />
+    <preference for="Sharis\Recipes\Api\Data\RecipeInterface"
+                type="Sharis\Recipes\Model\Recipe" />
+    <preference for="Sharis\Recipes\Model\RecipeSearchResultsInterface"
+                type="Magento\Framework\Api\SearchResults" />
+
+</config>

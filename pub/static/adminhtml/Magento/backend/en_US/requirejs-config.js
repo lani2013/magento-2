@@ -6,6 +6,23 @@
  */
 
 var config = {
+    map: {
+        '*': {
+            systemMessageDialog: 'Magento_AdminNotification/system/notification',
+            toolbarEntry:   'Magento_AdminNotification/toolbar_entry'
+        }
+    }
+};
+
+require.config(config);
+})();
+(function() {
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+var config = {
     'waitSeconds': 0,
     'map': {
         '*': {
@@ -187,23 +204,6 @@ require.config(config);
 var config = {
     map: {
         '*': {
-            systemMessageDialog: 'Magento_AdminNotification/system/notification',
-            toolbarEntry:   'Magento_AdminNotification/toolbar_entry'
-        }
-    }
-};
-
-require.config(config);
-})();
-(function() {
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-var config = {
-    map: {
-        '*': {
             folderTree: 'Magento_Cms/js/folder-tree'
         }
     }
@@ -275,6 +275,22 @@ require.config(config);
  */
 
 var config = {
+    map: {
+        '*': {
+            fptAttribute: 'Magento_Weee/js/fpt-attribute'
+        }
+    }
+};
+
+require.config(config);
+})();
+(function() {
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+var config = {
     paths: {
         'ui/template': 'Magento_Ui/templates'
     },
@@ -305,22 +321,6 @@ var config = {
     map: {
         '*': {
             groupedProduct: 'Magento_GroupedProduct/js/grouped-product'
-        }
-    }
-};
-
-require.config(config);
-})();
-(function() {
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-var config = {
-    map: {
-        '*': {
-            fptAttribute: 'Magento_Weee/js/fpt-attribute'
         }
     }
 };

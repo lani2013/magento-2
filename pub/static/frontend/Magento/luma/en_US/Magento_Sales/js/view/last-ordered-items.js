@@ -1,1 +1,0 @@
-/Users/mohammed.hussein/Workspace/magento2/vendor/magento/module-sales/view/frontend/web/js/view/last-ordered-items.js
